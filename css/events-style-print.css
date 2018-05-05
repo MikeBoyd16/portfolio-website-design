@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* Author: Michael Boyd */
+
+header, nav, main, footer 	{	display: 			block;						}
+
+html, body 					{	margin: 			0;
+								padding: 			0;
+								height: 			100%;
+								overflow-x: 		hidden;
+								overflow-y: 		hidden;
+								font-family: 		'Questrial', sans-serif; 	}
+
+main 						{	float:				left;
+								margin-left: 		400px;
+								max-width: 			570px;
+								min-height: 		100%;
+								text-align: 		center;
+								color: 				#000000;
+								background-color: 	#FFFFFF;					}
+
+table 						{	text-align: 		center;	
+								margin-top:			20px;						}
+
+tr 							{	padding: 			20px;
+								border: 			5px outset white; 			}
+
+td 							{	padding: 			20px;
+								border: 			5px outset white;			}
+
+nav 						{	position: 			absolute;
+								z-index: 			1;
+								right: 				0;
+								margin-top: 		-17px;
+								padding-top: 		20px;
+								width: 				30%;
+								min-height: 		100%;
+								font-weight: 		bold;
+								color: 				#000000;
+								background-color:	#FFFFFF;					}
+
+ul.navlinks 				{	display: 			none;						}
+
+ul.share-buttons 			{	display: 			none;						}
+
+h1 							{	margin: 			200px 6px 0px 6px;
+								font-size: 			58px;
+								text-align: 		center;						}
+
+h3 							{	margin-top:			250px;						}
+
+iframe 						{	display: 			none;						}
+
+footer p 					{	margin-top: 		350px;
+								font-size: 			16px;
+								color: 				#a6a6a6;
+								text-align: 		center; 					}
+
+.add-padding 				{	padding-left: 		10px;
+								padding-right: 		10px;						}
+
+.text-separator 			{	padding-top: 		20px; 						}
+
+.background-image 			{	background: 		none;
+								background-color:	white;						}
+
+#email-link-config 			{	display: 			none; 					}

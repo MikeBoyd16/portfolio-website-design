@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* Author: Michael Boyd */
+
+header, nav, footer 		{	display: block;									}
+
+html, body 					{	margin: 			0;
+								padding: 			0;
+								height: 			100%;
+								overflow-x: 		hidden;
+								overflow-y: 		hidden;
+								font-family: 		'Questrial', sans-serif;	}
+
+nav 						{	position: 			absolute;
+								z-index: 			1;
+								right: 				0;
+								margin-top: 		-17px;
+								padding-top: 		20px;
+								font-weight: 		bold;	
+								width: 				20%;
+								min-height: 		100%;
+								color: 				#000000;
+								background-color:	#FFFFFF;					}
+
+ul.navlinks 				{	display: 			none;						}
+
+ul.share-buttons 			{	display: 			none;						}
+
+h1 							{	font-size: 			58px;
+								text-align: 		center;
+								margin: 			200px 45px 0px 45px; 		}
+
+h2 							{	margin-top: 		5px;
+								text-align: 		center;						}
+
+.skills-listing 			{	float:				left;
+								margin-left: 		350px;
+								width: 				350px;
+								min-height: 		100%;
+								color: 				#000000;
+								background-color: 	#FFFFFF;						}
+
+.projects-listing 			{	float: 				left;
+								margin-left: 		30px;
+								width: 				350px;
+								min-height: 		100%;
+								text-align: 		center;
+								color: 				#000000;
+								background-color: 	#FFFFFF;						}
+
+.project-icon-config 		{	margin: 			10px;
+								width: 				30%;
+								height: 			30%;
+								border: 			5px outset white;			}
+
+.text-separator-skills 		{	padding-top: 		20px;						}
+.text-separator-projects	{	padding-bottom: 	20px;						}
+
+.language-header-adjust 	{	margin-left: 		0px;
+								margin-right: 		0px; 						}
+
+.background-image 			{	background: 		none;
+								background-color:	white;						}
+
+footer p 					{	margin-top: 		350px;
+								font-size: 			16px;
+								text-align: 		center;
+								color: 				#a6a6a6;					}

@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* Author: Michael Boyd */
+
+header, nav, main, footer 	{	display: 			block;						}
+
+html, body 					{	margin: 			0;
+								padding: 			0;
+								height: 			100%;
+								overflow-x: 		hidden;
+								overflow-y: 		hidden;
+								font-family: 		'Questrial', sans-serif; 	}
+
+main 						{	float:				left;
+								margin-left: 		60px;
+								max-width: 			570px;
+								min-height: 		100%;
+								text-align: 		center;
+								color: 				#FFFFFF;
+								background-color: 	#000000;					}
+
+table 						{	text-align: 		center;						}
+
+tr 							{	padding: 			20px;
+								border: 			5px outset white; 			}
+
+td 							{	padding: 			20px;
+								border: 			5px outset white;			}
+
+nav 						{	position: 			absolute;
+								z-index: 			1;
+								right: 				0;
+								margin-top: 		-17px;
+								padding-top: 		20px;
+								width: 				30%;
+								min-height: 		100%;
+								font-weight: 		bold;
+								color: 				#FFFFFF;
+								background-color:	#000000;					}
+
+ul.navlinks 				{	margin-right: 		25px;
+								text-align: 		center;	
+								list-style-type: 	none;						}
+
+ul.navlinks li 				{	padding: 			5px 15px 5px 0px;
+								font-size: 			20px;						}
+
+ul.navlinks li a 			{	padding: 			8px 15px 8px 16px;
+							    color: 				#FFF;
+							    text-decoration: 	none;
+							    display: 			block; 						}
+
+ul.navlinks li a.active 	{	color: 				black;
+    							background-color: 	#FFF; 						}
+
+ul.navlinks li 
+a:hover:not(.active) 		{	color: 				black;
+   								background-color: 	#FFF;						}
+
+ul.share-buttons 			{	padding: 			0px;
+							  	margin-top: 		60px;
+							  	text-align: 		center;
+							  	list-style: 		none;						}
+
+ul.share-buttons li 		{	padding: 			5px;
+  								display: 			inline;						}
+
+a 							{	text-decoration: 	none;						}
+a:link 						{	color: 				#d9d9d9;					}
+a:visited 					{	color: 				#8c8c8c;					}
+a:hover 					{	color: 				#ffffff;					}
+
+h1 							{	margin: 			200px 6px 0px 6px;
+								font-size: 			58px;
+								text-align: 		center;						}
+
+iframe 						{	margin-top: 		50px;
+								width: 				560px;
+								height: 			315px;
+								border: 			none; 						}
+
+footer p 					{	margin-top: 		350px;
+								font-size: 			16px;
+								color: 				#a6a6a6;
+								text-align: 		center; 					}
+
+.add-padding 				{	padding-left: 		10px;
+								padding-right: 		10px;						}
+
+.text-separator 			{	padding-top: 		20px; 						}
+
+.background-image 			{	background-size: 	cover;
+    							background:url(../images/web_background/city.jpg) 
+    												no-repeat center 
+    												center fixed;				}
+
+#email-link-config 			{	margin-top: 		50px;
+								margin-bottom: 		20px;
+								font-size: 			24px;
+								color: 				#FFFFFF; 					}
+
+
+@media only screen and (max-width: 1024px) 
+{ 
+	body 					{ 	background-color: 	#000000;
+								background-image: 	none !important;			}
+
+	main 					{	position: 			absolute;
+								z-index: 			1;
+								top: 				200px;
+								left: 				180px;
+								padding: 			1em;
+								margin: 			0;
+								min-height: 		60%;						}
+
+	table 					{	position: 			fixed;
+								margin-top: 		-40px;
+								margin-left: 		-75px;
+								width: 				550px;
+								height: 			300px;						}
+
+	nav 					{	float: 				none;
+								z-index: 			0;
+								padding: 			.5em;
+								width: 				auto;
+								min-width: 			100%;
+								text-align: 		center;						}
+
+	ul.navlinks 			{	position: 			fixed;
+								left: 				200px;
+								margin-top: 		30px;
+								display: 			inline-block; 				}
+
+	ul.navlinks li 			{	display: 			inline-block; 				}
+
+	ul.share-buttons 		{	position: 			fixed;
+								top: 				200px;
+								left: 				198px; 						}
+
+	ul.share-buttons li 	{	padding: 			0;							}
+
+	iframe 					{	margin-top: 		10px;
+								margin-left: 		-80px;						}
+
+	a 						{	padding: 			1em;						}
+
+	p 						{	margin-left: 		-135px;						}
+
+	h1 						{	position: 			fixed;
+								top: 				70px;
+								left: 				170px;
+								margin: 			0;							}
+
+	h3 						{	position: 			fixed;
+								margin: 			-60px 0 30px 140px;			}
+
+	footer p 				{	position: 			fixed;
+								top: 				570px;
+								left: 				420px;						}
+
+	#email-link-config 		{	margin-top: 		280px;
+								margin-left: 		-60px; 						}
+}
+
+
+@media only all and (max-width: 720px) 
+{
+	main 					{	top: 				160px;	
+								left: 				120px;
+								right: 				5px;
+								min-height: 		25%;						}
+
+	ul.navlinks 			{	left: 				130px;
+								margin-top: 		15px;
+								display: 			block;						}
+
+	ul.navlinks li 			{	display: 			block; 						}
+
+	ul.share-buttons 		{	position: 			fixed;
+								top: 				470px;
+								left: 				78px;
+								display: 			inline-block; 				}
+
+	ul.share-buttons li 	{	padding: 			5px;
+	  							display: 			inline-block;				}
+
+	table 					{	position: 			absolute;
+								top: 				95px;
+								left: 				-10px;
+								width: 				400px;
+								height: 			300px; 						}
+
+	iframe 					{	display: 			none;						}
+
+	a 						{	padding: 			.2em;
+								font-size: 			1.3em;
+								border-bottom: 		1px #330000;	
+								display: 			block;						}
+
+	h1 						{	display: 			none;						}
+
+	h3 						{	margin: 			10px 0 -4px 33px;			}
+
+	footer p 				{	position: 			fixed;
+								top: 				390px;
+								left: 				255px;						}
+
+	#email-link-config 		{	position: 			fixed;
+								margin-top: 		420px;
+								margin-bottom: 		0px;
+								margin-left: 		-55px;
+								font-size: 			20px;						}
+}
